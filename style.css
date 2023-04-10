@@ -1,6 +1,22 @@
+  @import url(https://uk.allfont.net/allfont.css?fonts=xxii-ultimate-black-metal-fallen);
+  @font-face {
+      font-family: 'XXII Ultimate-Black-Metal Fallen-Angel';
+      src: url('XXII-Ultimate-Black-Metal-Fallen-Angel.woff2') format('woff2'),
+          url('XXII-Ultimate-Black-Metal-Fallen-Angel.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'Grunge';
+      src: url('grunge.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
 ::selection {
     background-color: black;
+    
 }
+
 ::-webkit-scrollbar {
     width: 10px;
     background-color: white;
@@ -36,8 +52,10 @@ table th:hover {
        text-align: center;
         margin-top: auto;
         font-size: 136px;
+        
         src: url('XXII Ultimate-Black-Metal Fallen-Angel.ttf');
    }
+     
 .logo {
     margin-bottom: 2%;
 }
