@@ -1,0 +1,152 @@
+::selection {
+    background-color: black;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: white;
+    /* ширина полоски прокрутки */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+    /* колір полоски прокрутки */
+}
+h1 {
+    color: white;
+    margin: auto;
+transition: all 0.3s ease-in-out;
+}
+
+h1:hover {
+    font-size: 48px;
+    color: #f00;
+}
+body {
+background-color: black;
+cursor: url(cursor.png), auto;
+}
+table tr:hover {
+    color: #f00;
+    }
+table th:hover {
+    color: #f00;
+}
+.logo h1 {
+    font-family: 'XXII Ultimate-Black-Metal Fallen-Angel', arial;
+       text-align: center;
+        margin-top: auto;
+        font-size: 136px;
+        src: url('XXII Ultimate-Black-Metal Fallen-Angel.ttf');
+   }
+.logo {
+    margin-bottom: 2%;
+}
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+table {
+margin: auto;
+  width: 60%;
+  border-collapse: collapse;
+  border: 3px solid rgb(0, 0, 0);
+box-shadow: 0 0px 70px rgba(0, 0, 0, 0.5);
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th, td {
+  padding: 20px;
+}
+/* typography */
+
+html {
+font-family: 'Grunge', arial;
+font-size:10pt ;
+src: url('1.ttf');
+}
+
+thead th,
+tfoot th {
+font-family: 'Grunge', arial;
+}
+
+th {
+    letter-spacing: 2px;
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tfoot th {
+    text-align: right;
+}
+thead,
+tfoot {
+    background: url(1.png);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+thead th,
+tfoot th,
+tfoot td {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+    border: 3px solid rgb(0, 0, 0);
+}
+tbody tr:nth-child(odd) {
+    background-color: #201f22;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d6cfd6;
+}
+
+tbody tr {
+    background-image: url(noise.png);
+}
+
+table {
+    background-color: #ffffff;
+}
+caption {
+font-family: 'GothicRus Medium', arial;
+    padding: 20px;
+    font-style: italic;
+    caption-side: bottom;
+    color: #666;
+    text-align: right;
+    letter-spacing: 1px;
+}
+iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
